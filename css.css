@@ -1,0 +1,68 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,116,1) 67%, rgba(0,212,255,1) 100%);
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+.game{
+    width: 255px;
+    text-align: center;
+    font-family: monospace;
+    color: aliceblue;
+    margin:auto;
+    font-weight: 500;
+}
+.title{
+    background: rgba(2,0,36,1);
+    padding: 5px 0;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+span{
+    color: #fa0;
+}
+.square{
+    width: 80px;
+    height: 80px;
+    background: rgba(0,212,255,1);
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+    border-radius: 35%;
+}
+
+.square:hover{
+    background: rgba(9,121,116,1);
+    cursor: pointer;
+    border-radius:5px;
+    transition :0.5s ;
+
+}
+.glow {
+  font-size: 70px;
+  color: #ffffff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+  }
+  to {
+    text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6,
+                0 0 60px cyan, 0 0 70px cyan, 0 0 80px cyan;
+  }
+}
+
+
+
+
+
+
